@@ -13,35 +13,55 @@
         android:id="@+id/imageButton1"
         android:layout_width="105dp"
         android:layout_height="105dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="360dp"
         android:background="@drawable/button_background"
-        app:srcCompat="@drawable/button1_icon"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="353dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button1_icon" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="105dp"
         android:layout_height="105dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="84dp"
         android:background="@drawable/button_background"
-        app:srcCompat="@drawable/button2_icon"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="353dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button2_icon" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="105dp"
         android:layout_height="105dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="136dp"
         android:background="@drawable/button_background"
-        app:srcCompat="@drawable/button3_icon"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="487dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/button3_icon" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="105dp"
         android:layout_height="105dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="136dp"
         android:background="@drawable/button_background"
-        app:srcCompat="@drawable/button4_icon"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="487dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/button4_icon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
