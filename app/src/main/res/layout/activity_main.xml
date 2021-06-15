@@ -42,6 +42,6 @@
         android:layout_height="105dp"
         android:background="@drawable/button_background"
         app:srcCompat="@drawable/button4_icon"
-        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteX="210dp"
         tools:layout_editor_absoluteY="487dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
