@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MediDeck</string>
+    <string name="intro">Hello there,
+        Welcome back!</string>
 </resources>

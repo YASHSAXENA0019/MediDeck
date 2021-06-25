@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentRight="false"
-    android:background="#DADDD2"
-    android:backgroundTint="#DADDD2"
+    android:background="#222831"
+    android:backgroundTint="#222831"
     tools:context=".MainActivity">
 
     <ImageButton
@@ -16,6 +16,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginTop="360dp"
         android:background="@drawable/button_background"
+        android:elevation="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/button1_icon" />
@@ -64,4 +65,30 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/button4_icon" />
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/search_bar"
+        android:elevation="20dp"
+        android:hint="Search Bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="204dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/intro"
+        android:textAppearance="@style/intro"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
