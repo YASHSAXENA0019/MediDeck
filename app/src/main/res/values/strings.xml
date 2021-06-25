@@ -5,4 +5,5 @@
     <string name="Doc_intro">Hello Doctor,
         Welcome back!</string>
     <string name="Search">Search Bar</string>
+    <string name="user_name">User Name</string>
 </resources>
