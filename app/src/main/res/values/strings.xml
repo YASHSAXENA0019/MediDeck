@@ -2,4 +2,7 @@
     <string name="app_name">MediDeck</string>
     <string name="intro">Hello there,
         Welcome back!</string>
+    <string name="Doc_intro">Hello Doctor,
+        Welcome back!</string>
+    <string name="Search">Search Bar</string>
 </resources>
