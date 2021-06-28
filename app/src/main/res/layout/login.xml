@@ -28,29 +28,27 @@
         android:textAppearance="@style/user_name"
         tools:layout_editor_absoluteX="134dp"
         tools:layout_editor_absoluteY="306dp" />
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="300dp"
-            android:layout_height="40dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="350dp"
-            />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="350dp" />
 
-        <EditText
-            android:id="@+id/pass"
-            android:layout_width="300dp"
-            android:layout_height="40dp"
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="462dp" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
-    </RelativeLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="433dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
