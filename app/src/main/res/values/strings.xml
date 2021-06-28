@@ -6,4 +6,11 @@
         Welcome back!</string>
     <string name="Search">Search Bar</string>
     <string name="user_name">User Name</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="number">Number</string>
+    <string name="bloodgroup">Blood Group</string>
+    <string name="address">Address</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
 </resources>

@@ -5,11 +5,9 @@
     android:id="@+id/Main_Home_page"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentRight="false"
     android:background="#222831"
     android:backgroundTint="#222831"
-    android:textAlignment="center"
-    tools:context=".MainActivity">
+    android:textAlignment="center">
 
     <ImageButton
         android:id="@+id/imageButton1"
