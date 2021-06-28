@@ -20,6 +20,26 @@
             12
         </item>
     </style>
+    <style name="signup_login_pg">
+        <item name="android:textSize">
+            18sp
+        </item>
+        <item name="android:textColor">
+            #00ADB5
+        </item>
+        <item name="android:shadowColor">
+            #40000000
+        </item>
+        <item name="android:shadowDx">
+            0
+        </item>
+        <item name="android:shadowDy">
+            4
+        </item>
+        <item name="android:shadowRadius">
+            11
+        </item>
+    </style>
 
     <style name="user_name">
         <item name="android:textSize">
