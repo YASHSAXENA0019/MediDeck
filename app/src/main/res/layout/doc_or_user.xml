@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logo_doc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    android:backgroundTint="#222831"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@id/logo_doc"
+        android:layout_width="293dp"
+        android:layout_height="291dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/whoareyou"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/whoareyou"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="28dp"
+        android:gravity="top"
+        android:text="Who are you?"
+        android:textAlignment="center"
+        android:textAppearance="@style/user_name"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/doc_radio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/doc_radio"
+        android:layout_width="159dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="24dp"
+        android:buttonTint="#393E46"
+        android:text=" Doctor"
+        android:textColor="#00ADB5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/patient_radio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/patient_radio"
+        android:layout_width="159dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="160dp"
+        android:buttonTint="#393E46"
+        android:text=" Patient"
+        android:textColor="#00ADB5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
