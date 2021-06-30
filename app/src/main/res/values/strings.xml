@@ -14,4 +14,8 @@
     <string name="weight">Weight</string>
     <string name="height">Height</string>
     <string name="get_on_boar">Get on Board!</string>
+    <string name="email">Email Id</string>
+    <string name="password">Password</string>
+    <string name="c_password">Confirm
+    Password</string>
 </resources>

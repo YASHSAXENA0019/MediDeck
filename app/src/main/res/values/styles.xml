@@ -82,7 +82,7 @@
 
     <style name="name_si">
         <item name="android:textSize">
-            30sp
+            28sp
         </item>
         <item name="android:textColor">
             #00ADB5
