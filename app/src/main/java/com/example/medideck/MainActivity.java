@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
     // hemlo
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.patient_home_page);
     }
 }
