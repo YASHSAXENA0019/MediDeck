@@ -37,6 +37,7 @@
         android:id="@+id/username"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:textColor="#BFD7E2"
         android:background="@drawable/edit_round"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="350dp" />
@@ -73,7 +74,7 @@
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#00ADB5"
+        android:background="@drawable/button_round"
         android:backgroundTint="#00ADB5"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
