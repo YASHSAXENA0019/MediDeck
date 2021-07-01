@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
+public class patient_home_page extends AppCompatActivity {
     private ImageButton profile;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
