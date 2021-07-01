@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediDeck">
         <activity android:name=".user_profile"></activity>
-        <activity android:name=".patient_home_page">
+        <activity android:name=".patient_home_page"></activity>
+        <activity android:name=".login_act">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
