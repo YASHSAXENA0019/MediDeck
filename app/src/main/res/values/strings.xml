@@ -18,4 +18,9 @@
     <string name="password">Password</string>
     <string name="c_password">Confirm
     Password</string>
+    <string name="covid_19_ca">Covid-19 care  hospitals  and
+        isolation centres</string>
+    <string name="laboratorie">Laboratories  with Covid-19
+        testing facility</string>
+
 </resources>

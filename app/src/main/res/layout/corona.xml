@@ -10,5 +10,36 @@
     tools:context=".patient_home_page">
 
 
+    <Button
+        android:id="@+id/covid_hos"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="false"
+        android:drawableRight="@drawable/covid19_hospitals"
+        android:text="@string/covid_19_ca"
+        android:textAppearance="@style/covid_19_ca"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="565dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="false"
+        android:drawableRight="@drawable/rtcpr_logo"
+        android:text="@string/laboratorie"
+        android:textAppearance="@style/covid_19_ca"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="false"
+        android:drawableRight="@drawable/rtpcr_icon"
+        android:text="Vaccine"
+        android:textAppearance="@style/covid_19_ca"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="315dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
