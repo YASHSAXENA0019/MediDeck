@@ -12,7 +12,7 @@
         android:layout_width="105dp"
         android:layout_height="105dp"
         android:background="@drawable/button_background"
-        android:src="@drawable/button1_icon"
+        android:src="@drawable/icon1"
         tools:layout_editor_absoluteX="71dp"
         tools:layout_editor_absoluteY="412dp" />
 
@@ -21,7 +21,7 @@
         android:layout_width="105dp"
         android:layout_height="105dp"
         android:background="@drawable/button_background"
-        android:src="@drawable/button2_icon"
+        android:src="@drawable/icon2"
         tools:layout_editor_absoluteX="226dp"
         tools:layout_editor_absoluteY="412dp" />
 
